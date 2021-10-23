@@ -1,2 +1,2 @@
 # ContactPage
-Simple webpage with links to social media.
+Simple webpage with links to my social media.
