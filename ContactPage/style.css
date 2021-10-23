@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+body{ 
+     
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, rgb(140, 98, 218),rgb(94, 41, 238));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass{
+    background: antiquewhite;
+    min-height: 80vh;
+    width: 20%;
+    background: linear-gradient(to right , rgba(233, 205, 169, 0.7),rgba(136, 236, 89, 0.2));
+    border-radius: 1.5rem;
+    z-index: 2; 
+    backdrop-filter: blur(2rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.circle1,.circle2,.circle3,.circle4{
+    background: rgb(255,255,255);
+
+    
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    border-radius: 50%;
+
+
+}
+.circle1{
+    background: linear-gradient(to left bottom, rgba(255,255,255,0.9),rgba(255,255,255,0.09));
+    top: 50%;
+    left: 5%;   
+    background-color: rgb(233, 144, 27);
+}
+
+.circle2{
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.9),rgba(255,255,255,0.09));
+    bottom: 60%;
+    left: 70%;
+    background-color:rgb(18, 182, 45);
+}
+
+.circle3{
+    background: linear-gradient(to left bottom, rgba(255,255,255,0.9),rgba(255,255,255,0.09));
+    height: 10rem;
+    width:10rem;
+    top: 8%;
+    left: 17%;
+    background-color: rgb(223, 153, 63);
+}
+.circle4{
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.9),rgba(255,255,255,0.09));
+    height: 8rem;
+    width:8rem;
+    top: 78%;
+    left: 76%;
+    background-color: rgb(39, 189, 102);
+}
+.image1{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2%;
+    margin-left: auto;
+}
+
+.image2{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-top: 20%;
+    margin-left: 28%;
+    
+}
+.image3{
+    
+    width: 6rem;
+    height: 6rem;
+    margin-top: 1%;
+    margin-left: 22%;
+
+}
+.image4{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    margin-left: 30%;
+}
+.text {
+    
+    margin-top: 2%;
+    margin-left: 20%;
+    
+	
+	background: linear-gradient(to right bottom, #000000 0%, #6c1bcf 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
